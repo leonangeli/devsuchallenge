@@ -31,13 +31,13 @@ npm install
 You can run the tests in different ways:
 
 <p>Cypress runner</p>
-Excecute the command and follow the intuitive UI
+Excecute the command and follow the intuitive UI:
 
 ```
 npx cypress open
 ```
 
-<p>Headless browser</p>
+<p>Headless browser:</p>
 
 ```
 npx cypress run
@@ -45,19 +45,19 @@ npx cypress run
 
 <p>Custom scripts with mochawesome reports</p>
 
-Petstore api test
+Petstore api test:
 
 ```
 npm run petstoreapi-report
 ```
 
-Sauce login test
+Sauce login test:
 
 ```
 npm run loginsauce-report
 ```
 
-Sauce buy test
+Sauce buy test:
 
 ```
 npm run buysauce-report
