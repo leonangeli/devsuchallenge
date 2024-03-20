@@ -1,0 +1,19 @@
+{
+  "name": "devsuchallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api-report": "cypress run --spec cypress/integration/petstore.api.spec.js --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.7.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "dotenv": "^16.4.5"
+  }
+}

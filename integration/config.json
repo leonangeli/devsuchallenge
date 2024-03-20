@@ -1,0 +1,6 @@
+{
+  "addPetURL": "https://petstore.swagger.io/v2/pet",
+  "getPetIDURL": "https://petstore.swagger.io/#/pet/getPetById",
+  "putPet": "https://petstore.swagger.io/#/pet/updatePet",
+  "getPetStatusURL": "https://petstore.swagger.io/#/pet/findPetsByStatus"
+}
