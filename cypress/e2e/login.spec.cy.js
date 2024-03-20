@@ -16,6 +16,8 @@ describe("User Login Tests", () => {
     cy.visit("/");
   });
   it("Should be able to login successfully with valid credentials", () => {
+    //Retrive the user data from the cypres.env in order to avoid hardcoding sensitive data
+    //Complete the form and click the Login button
     login.completeLoginForm(username, password);
     login.elements
       .loginUrl()

@@ -5,6 +5,7 @@ describe("API Testing", () => {
   let petId;
 
   it("Should add a new pet successfully", () => {
+    //Create a new pet
     cy.request({
       method: "POST",
       url: `${config.addPetURL}`,
