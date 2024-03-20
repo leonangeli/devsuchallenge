@@ -63,6 +63,11 @@ Sauce buy test:
 npm run buysauce-report
 ```
 
+<p>GitHub Actions</p>
+
+Additionally, I configured my tests to be able to run on the CI/CD GitHub Actions. In order to do this, go to the "Actions" tab within the repository link, there you will be able to see how every change pushed to the repository execute the defined workflows based on specified events or schedules.
+There you will be able to monitor the status and results of this executions plus run them as you please.
+
 <h2>💻 Built with</h2>
 
 Technologies used in the project:
