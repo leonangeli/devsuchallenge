@@ -1,6 +1,6 @@
-<h1 align="center" id="title">Petstore Swagger API Cypress tests</h1>
+<h1 align="center" id="title">Saucedemo UI & Petstore Swagger API Cypress tests</h1>
 
-<p id="description">This repository contains automated tests for Petstore Swagger sample server implementing Cypress.</p>
+<p id="description">This repository contains automated tests for Saucedemo UI and Petstore Swagger sample server implementing Cypress.</p>
 
 <h2>🧐 Features</h2>
 
@@ -17,7 +17,7 @@ Here're some of the project's best features:
 <p>1. Clone the repository</p>
 
 ```
-git clone https://github.com/leonangeli/petstorecy
+git clone https://github.com/leonangeli/devsuchallenge.git
 ```
 
 <p>2. Install dependencies</p>
@@ -45,10 +45,22 @@ npx cypress run
 
 <p>Custom scripts with mochawesome reports</p>
 
-api test
+Petstore api test
 
 ```
-npm run api-report
+npm run petstoreapi-report
+```
+
+Sauce login test
+
+```
+npm run loginsauce-report
+```
+
+Sauce buy test
+
+```
+npm run buysauce-report
 ```
 
 <h2>💻 Built with</h2>

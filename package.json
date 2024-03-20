@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "api-report": "cypress run --spec cypress/integration/petstore.api.spec.js --browser chrome --headed"
+    "petstoreapi-report": "cypress run --spec integration/petstoreapi.spec.cy.js --browser chrome --headed",
+    "loginsauce-report": "cypress run --spec cypress/e2e/login.spec.cy.js --browser chrome --headed",
+    "buysauce-report": "cypress run --spec cypress/e2e/buy.spec.cy.js --browser chrome --headed"
   },
   "keywords": [],
   "author": "",
